@@ -24,4 +24,4 @@ async def slash2(interaction: discord.Interaction):
     num = random.randint(1,100)
     await interaction.response.send_message(f"Numero: {num} seu número aleatorio foi gerado!", ephemeral = False) 
 
-aclient.run('MTA5NTQzOTcxODgyMjQ2MTYzMQ.GAOnep.dJEM_DmhJTcIZ5rvOgiHTYHKlaeraRUqtQNyoQ')
+aclient.run('token')
